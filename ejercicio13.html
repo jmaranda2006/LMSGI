@@ -6,72 +6,73 @@
     <title>FORMULARIO</title>
 </head>
 <body>
-
-<h1>FORMULARIO</h1>
-
-
+<div style="width: 25%; margin-left: 35%;">
+    <h1 style="text-align: center;">FORMULARIO</h1>
 
 
-    <fieldset>
-        <legend>Datos personales y de envio : </legend>
-    <form>
-        <label for="fname">Nombre :</label>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Apellidos :</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Domicilio :</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Localidad :</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Codigo Postal :</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Telefono :</label>
-        <input type="text" id="lname" name="lname"><br>
-      </form>
-    </fieldset>
-    <fieldset>
-        <legend>Eliga la opción de entrega</legend>
+
+
+        <fieldset>
+            <legend>Datos personales y de envio : </legend>
         <form>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Recoger en el local</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Enviar al domicilio</label><br>
-          </form>
-    </fieldset>
-    <fieldset>
-        <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
-        <form>
-            <input type="checkbox" id="option1" name="option1" value="domicilio">
-            <label for="option1">Enviar al domicilio</label><br>
-            <input type="checkbox" id="option2" name="option2" value="correo">
-            <label for="option2">Enviar al correo</label><br>
-          </form>
-    </fieldset>
-
-    <fieldset>
-        <legend>Eliga su menu</legend>
-        <form>
-            <label for="cars">Tamaño del bocadillo</label><br>
-            <select id="cars" name="cars" size="4" multiple>
-                <option value="pequeño">pequeño</option>
-                <option value="mediano">mediano</option>
-                <option value="grande">grande</option>
-                <option value="enorme">enorme</option>
-            </select>
-            <br>
-            <label for="cars">Contenido del bocadillo</label><br>
-            <select id="cars" name="cars" size="4" multiple>
-                <option value="anchoas">anchoas</option>
-                <option value="mejillones">mejillones</option>
-                <option value="calamares">calamares</option>
-                <option value="jamón">jamón</option>
-            </select>
-            <p>Puede añadir alguna sugerencia</p>
-            <textarea name="message" rows="10" cols="30">
-
-                </textarea>
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre" name="fname"><br>
+            <label for="apellidos">Apellidos :</label>
+            <input type="text" id="apellidos" name="lname"><br>
+            <label for="domicilio">Domicilio :</label>
+            <input type="text" id="domicilio" name="lname"><br>
+            <label for="localidad">Localidad :</label>
+            <input type="text" id="localidad" name="lname"><br>
+            <label for="codpostal">Codigo Postal :</label>
+            <input type="text" id="codpostal" name="lname"><br>
+            <label for="telefono">Telefono :</label>
+            <input type="text" id="telefono" name="lname"><br>
         </form>
-    </fieldset>
-    <input type="submit" value="Enviar Datos">
+        </fieldset>
+        <fieldset>
+            <legend>Eliga la opción de entrega</legend>
+            <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Recoger en el local</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Enviar al domicilio</label><br>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+            <form>
+                <input type="checkbox" id="option1" name="option1" value="domicilio">
+                <label for="option1">Enviar al domicilio</label><br>
+                <input type="checkbox" id="option2" name="option2" value="correo">
+                <label for="option2">Enviar al correo</label><br>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Eliga su menu</legend>
+            <form>
+                <label for="tamaño">Tamaño del bocadillo</label><br>
+                <select id="tamaño" name="tamaño" size="4" multiple>
+                    <option value="pequeño">pequeño</option>
+                    <option value="mediano">mediano</option>
+                    <option value="grande">grande</option>
+                    <option value="enorme">enorme</option>
+                </select>
+                <br>
+                <label for="Contenido">Contenido del bocadillo</label><br>
+                <select id="Contenido" name="Contenido" size="4" multiple>
+                    <option value="anchoas">anchoas</option>
+                    <option value="mejillones">mejillones</option>
+                    <option value="calamares">calamares</option>
+                    <option value="jamón">jamón</option>
+                </select>
+                <p>Puede añadir alguna sugerencia</p>
+                <textarea name="message" rows="10" cols="30">
+
+                    </textarea>
+            </form>
+        </fieldset>
+        <input type="submit" value="Enviar datos">
+</div>
 </body>
 </html>
