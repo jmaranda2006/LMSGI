@@ -1,0 +1,21 @@
+.p1 {
+    width: 50%;
+    border: 2px solid black;
+    font-size: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.p2 {
+    width: 33.33%;
+    border: 2px solid red;
+    font-size: 120%;
+    padding: 10px;
+    text-align: center;
+}
+.p3 {
+    width: 25%;
+    border: 2px solid blue;
+    font-size: 80%;
+    padding: 10px;
+    text-align: center;
+}
