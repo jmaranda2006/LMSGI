@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.cabecera, .pie {
+    width: 100%;
+    padding: 20px;
+    color: rgb(255, 2, 2);
+    text-align: center;
+}
+.cabecera {
+    background-color: #2bd3f5;
+}
+.contenido {
+    display: flex;
+    flex: 1;
+}
+.columna-izquierda {
+    width: 75%;
+    background-color: #ff7f7f;
+    padding: 20px;
+}
+.columna-derecha {
+    width: 25%;
+    background-color: #13cc38;
+    padding: 20px;
+}
+.pie {
+    background-color: #fbfb00;
+}

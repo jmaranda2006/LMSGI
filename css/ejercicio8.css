@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+p {
+    border-width: 5px;
+    border-style: solid;
+}
+#parrafo1 {
+    border-color: rgb(148, 143, 3);
+    background-color: rgb(250, 235, 95);
+    margin: 0px;
+    padding: 0px;
+}
+#parrafo2 {
+    border-color: rgb(3, 129, 3);
+    background-color: rgb(98, 242, 98);
+    margin: 5px;
+    padding: 5px;
+}
+#parrafo3 {
+    border-color: royalblue;
+    background-color: rgb(127, 218, 248);
+    margin: 0px;
+    padding: 20px;
+}
