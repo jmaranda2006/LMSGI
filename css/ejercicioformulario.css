@@ -1,0 +1,56 @@
+#contenedor{
+    background-color: rgb(255, 224, 87);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#conectar{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 240px;
+    margin-top: 25px;
+    
+}
+#SupI{
+
+    width: 50%;
+    
+}
+
+#MedI{
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    
+}
+#SupI{
+    width: 50%;
+    font-size: 200; 
+    font-family: Verdana; 
+    padding-top: 5px;
+    padding-left: 30px;
+    float: left;
+}
+
+#SupI h1{
+
+    font-size: 200; 
+    font-family: Verdana; 
+    color: red;
+    
+}
+#MedD{
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+
+}
+#Pie{
+    clear: both;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+fieldset{
+    margin-bottom: 40px;
+}
