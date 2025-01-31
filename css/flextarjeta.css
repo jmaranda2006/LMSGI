@@ -1,0 +1,38 @@
+body{
+    font-family: verdana;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background:black;
+    font-size: 2em;
+}
+section{
+    display: flex;
+}
+article{
+    padding: 10px;
+    text-align: center;
+    width: 100%; /*para indicarle al flexbox que los contenidos se van a ajustar al tamaño de la pantalla*/
+}
+#articulo-1{
+    background: #7ebdbb;
+}
+#articulo-2{
+    background: #b6ebb3;
+}
+#articulo-3{
+    background: #bacee3;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%; /* hace que la imagen se ocupe el 100% de su contenedor*/
+}
